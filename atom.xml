@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>痞子谭~博客 | 不忘 · 初心 | 方得 · 始终</title>
+  <subtitle>不忘 · 初心 |  方得 · 始终| 一切的创造，源于热爱，回溯最初，在最简洁中传递情感，在网络的世界里游弋人生</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.skyshe.cn/"/>
+  <updated>2016-06-03T09:31:04.000Z</updated>
+  <id>https://www.skyshe.cn/</id>
+  
+  <author>
+    <name>痞子譚</name>
+    <email>admin#skyshe.cn</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vultr超高性价比VPS评测使用教程（最新优惠码）</title>
+    <link href="https://www.skyshe.cn/2016/06/01/vps-vultr/"/>
+    <id>https://www.skyshe.cn/2016/06/01/vps-vultr/</id>
+    <published>2016-06-01T08:44:41.000Z</published>
+    <updated>2016-06-03T09:31:04.000Z</updated>
+    
+    <content type="html">&lt;p&gt;最具性价比的vps是哪家？综合考虑vps稳定性、机房速度、vps硬件配置，美国linode一度是vps市场里的王牌；digitalocean vps迅速介入云主机市场，SSD固态硬盘性能秒杀竞争对手，digitalocean价格非常便宜，5美元/月；2014年，vps品牌vultr悄然兴起，vps价格竟然比digitalocean还要低，性能优异，值得关注。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Vultr介绍&quot;&gt;&lt;a href=&quot;#Vultr介绍&quot; class=&quot;headerlink&quot; title=&quot;Vultr介绍&quot;&gt;&lt;/a&gt;Vultr介绍&lt;/h3&gt;&lt;p&gt;初次接触vutlr是在twitter看到推广，充值多少赠送多少，于是就注册vultr充值了10美元，立即账号就收到赠送的10美元，感觉爽歪歪。当天就下单订购了一台位于日本东京的VPS测试，效果惊人。&lt;/p&gt;
+&lt;p&gt;Vultr创业初期，无论是产品形态、官网界面，都在模仿热门的digitalocean vps，甚至一开始就上架了SSD vps，真是财大气粗。vultr.com域名于2008年注册，2013年9月易主。vultr公司办公室位于美国纽约，是一个远程办公的团队。&lt;/p&gt;
+&lt;p&gt;vultr主要卖点是：SSD硬盘、超低价格、全球13个机房、10Gb服务器带宽、3GHz CPU、性能优异。&lt;/p&gt;
+&lt;h3 id=&quot;Vultr价格&quot;&gt;&lt;a href=&quot;#Vultr价格&quot; class=&quot;headerlink&quot; title=&quot;Vultr价格&quot;&gt;&lt;/a&gt;Vultr价格&lt;/h3&gt;&lt;p&gt;计算实例：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Vultrjiage.png&quot; alt=&quot;Vultr价格&quot; title=&quot;Vultr价格&quot;&gt;&lt;/p&gt;
+&lt;p&gt;存储实例：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Vultrjiage1.png&quot; alt=&quot;Vultr价格&quot; title=&quot;Vultr价格&quot;&gt;&lt;/p&gt;
+&lt;p&gt;独立主机：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Vultrjiage2.png&quot; alt=&quot;Vultr价格&quot; title=&quot;Vultr价格&quot;&gt;&lt;/p&gt;
+&lt;p&gt;上图可看出，相同vps配置下，vultr价格比digitalocean略低。每月5美元可购买768MB内存、15GB SSD硬盘空间、1000GB流量。需要注意的是，计算实例和存储实例内存大小和硬盘大小不一样，而独立主机流量和配置都高于其他实例。&lt;/p&gt;
+&lt;h3 id=&quot;Vultr性能&quot;&gt;&lt;a href=&quot;#Vultr性能&quot; class=&quot;headerlink&quot; title=&quot;Vultr性能&quot;&gt;&lt;/a&gt;Vultr性能&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/xingneng1.png&quot; alt=&quot;Vultr价格&quot; title=&quot;Vultr性能&quot;&gt;&lt;/p&gt;
+&lt;p&gt;VULTR跑分远高于Rackspace和亚马逊的AWS&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/xingneng2.png&quot; alt=&quot;Vultr价格&quot; title=&quot;Vultr性能&quot;&gt;&lt;/p&gt;
+&lt;p&gt;站长熟悉的UnixBench跑飞，VULTR表现同样不俗。&lt;/p&gt;
+&lt;h3 id=&quot;机房速度&quot;&gt;&lt;a href=&quot;#机房速度&quot; class=&quot;headerlink&quot; title=&quot;机房速度&quot;&gt;&lt;/a&gt;机房速度&lt;/h3&gt;&lt;p&gt;vultr全球13个机房位置如下表：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;vultr机房&lt;/th&gt;
+&lt;th&gt;测试主机名&lt;/th&gt;
+&lt;th&gt;Download Test File&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;(Asia) Tokyo, Japan&lt;/td&gt;
+&lt;td&gt;hnd-jp-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://hnd-jp-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://hnd-jp-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(AU) Sydney, Australia&lt;/td&gt;
+&lt;td&gt;syd-au-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://syd-au-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://syd-au-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(EU) Frankfurt, DE&lt;/td&gt;
+&lt;td&gt;fra-de-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://fra-de-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://fra-de-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(EU) Amsterdam, NL&lt;/td&gt;
+&lt;td&gt;ams-nl-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://ams-nl-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://ams-nl-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Seattle, Washington&lt;/td&gt;
+&lt;td&gt;wa-us-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://wa-us-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://wa-us-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(EU) London, UK&lt;/td&gt;
+&lt;td&gt;lon-gb-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://lon-gb-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://lon-gb-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(EU) Paris, France&lt;/td&gt;
+&lt;td&gt;par-fr-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://par-fr-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://par-fr-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Los Angeles, California&lt;/td&gt;
+&lt;td&gt;lax-ca-us-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://lax-ca-us-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://lax-ca-us-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chicago, Illinois&lt;/td&gt;
+&lt;td&gt;il-us-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://il-us-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://il-us-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dallas, Texas&lt;/td&gt;
+&lt;td&gt;tx-us-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://tx-us-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://tx-us-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;New York / New Jersey&lt;/td&gt;
+&lt;td&gt;nj-us-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://nj-us-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://nj-us-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Atlanta, Georgia&lt;/td&gt;
+&lt;td&gt;ga-us-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://ga-us-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://ga-us-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Miami, Florida&lt;/td&gt;
+&lt;td&gt;fl-us-ping.vultr.com&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://fl-us-ping.vultr.com/vultr.com.100MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;100Mb&lt;/span&gt;&lt;/a&gt;   &lt;a class=&quot;btn-primary btn_small&quot; style=&quot;font-weight: bold; color: #ffffff;&quot; href=&quot;http://fl-us-ping.vultr.com/vultr.com.1000MB.bin&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;1000Mb&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;  利用WinMTR实测发现，南京移动宽带到VULTR机房速度表现里，(Asia) Tokyo, Japan是速度最好的。白天Ping值只有93左右，不到100，远低于一般美国vps的200ms，走的是hk.bb.gin.ntt.net直连线路。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Host              -   %&lt;/th&gt;
+&lt;th&gt;Sent&lt;/th&gt;
+&lt;th&gt;Recv&lt;/th&gt;
+&lt;th&gt;Best&lt;/th&gt;
+&lt;th&gt;Avrg&lt;/th&gt;
+&lt;th&gt;Wrst&lt;/th&gt;
+&lt;th&gt;Last&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;OPENWRT -    0&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;100.69.192.1 -    0&lt;/td&gt;
+&lt;td&gt;526&lt;/td&gt;
+&lt;td&gt;526&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.181.217.14 -    0&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.181.148.161 -    0&lt;/td&gt;
+&lt;td&gt;526&lt;/td&gt;
+&lt;td&gt;526&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.178.162.166 -    0&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.178.162.169 -  100&lt;/td&gt;
+&lt;td&gt;107&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;183.207.204.29 -    0&lt;/td&gt;
+&lt;td&gt;526&lt;/td&gt;
+&lt;td&gt;526&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.183.13.113 -    1&lt;/td&gt;
+&lt;td&gt;518&lt;/td&gt;
+&lt;td&gt;516&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;51&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.183.10.122 -    1&lt;/td&gt;
+&lt;td&gt;522&lt;/td&gt;
+&lt;td&gt;521&lt;/td&gt;
+&lt;td&gt;33&lt;/td&gt;
+&lt;td&gt;37&lt;/td&gt;
+&lt;td&gt;149&lt;/td&gt;
+&lt;td&gt;34&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.176.18.114 -    1&lt;/td&gt;
+&lt;td&gt;514&lt;/td&gt;
+&lt;td&gt;511&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;td&gt;205&lt;/td&gt;
+&lt;td&gt;33&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.176.24.138 -    0&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;34&lt;/td&gt;
+&lt;td&gt;37&lt;/td&gt;
+&lt;td&gt;58&lt;/td&gt;
+&lt;td&gt;39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;221.183.21.58 -    1&lt;/td&gt;
+&lt;td&gt;518&lt;/td&gt;
+&lt;td&gt;516&lt;/td&gt;
+&lt;td&gt;36&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;86&lt;/td&gt;
+&lt;td&gt;41&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;203.131.250.5 -    0&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;39&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ae-6.r22.tkokhk01.hk.bb.gin.ntt.net -    1&lt;/td&gt;
+&lt;td&gt;522&lt;/td&gt;
+&lt;td&gt;521&lt;/td&gt;
+&lt;td&gt;37&lt;/td&gt;
+&lt;td&gt;39&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ae-16.r30.tokyjp05.jp.bb.gin.ntt.net -    1&lt;/td&gt;
+&lt;td&gt;514&lt;/td&gt;
+&lt;td&gt;511&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;102&lt;/td&gt;
+&lt;td&gt;114&lt;/td&gt;
+&lt;td&gt;102&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ae-16.r01.tokyjp05.jp.bb.gin.ntt.net -    1&lt;/td&gt;
+&lt;td&gt;518&lt;/td&gt;
+&lt;td&gt;516&lt;/td&gt;
+&lt;td&gt;88&lt;/td&gt;
+&lt;td&gt;90&lt;/td&gt;
+&lt;td&gt;92&lt;/td&gt;
+&lt;td&gt;90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;xe-0-6-0-21.r01.tokyjp05.jp.ce.gin.ntt.net -    0&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;109&lt;/td&gt;
+&lt;td&gt;343&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;No response from host -  100&lt;/td&gt;
+&lt;td&gt;106&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;108.61.201.151.vultr.com -    0&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;525&lt;/td&gt;
+&lt;td&gt;91&lt;/td&gt;
+&lt;td&gt;93&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;92&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;Vultr优惠码&quot;&gt;&lt;a href=&quot;#Vultr优惠码&quot; class=&quot;headerlink&quot; title=&quot;Vultr优惠码&quot;&gt;&lt;/a&gt;Vultr优惠码&lt;/h3&gt;&lt;p&gt;vultr优惠码活动很多，包括早期充值多少送多少，在twitter和facebook发消息推广vultr赠送1美元。vultr优惠购买链接 &lt;a href=&quot;http://www.vultr.com/?ref=6899087&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://www.vultr.com/?ref=6899087&lt;/a&gt; （永久有效）另外还有个$20(&lt;span style=&quot;color: #ff0000;&quot;&gt;20美元优惠码只能新注册以后第一次支付的时候使用,包括信用卡和paypal支付&lt;/span&gt;) 优惠码：&lt;strong&gt;SSDVPS&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;竞争对手&quot;&gt;&lt;a href=&quot;#竞争对手&quot; class=&quot;headerlink&quot; title=&quot;竞争对手&quot;&gt;&lt;/a&gt;竞争对手&lt;/h3&gt;&lt;p&gt;vps市场竞争真是激烈，哪家产品好，不是永久的，今天你降价，明天我免费赠送加倍配置，linode跟digitalocean大战的时候就玩过这招。目前来说，vultr是非常值得推荐的，高性价比vps。当然，其他的vps同样值得关注，后续有机会尽量给大家推荐价廉物美的主机。&lt;/p&gt;
+&lt;h3 id=&quot;购买方式&quot;&gt;&lt;a href=&quot;#购买方式&quot; class=&quot;headerlink&quot; title=&quot;购买方式&quot;&gt;&lt;/a&gt;购买方式&lt;/h3&gt;&lt;p&gt;vultr支持四种付款方式：信用卡扣款、Paypal充值、比特币、Gift礼品卡充值。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/billing.png&quot; alt=&quot;Vultr支付方式&quot; title=&quot;Vultr支付方式&quot;&gt; &lt;/p&gt;
+&lt;p&gt;推荐paypal方式，安全有保障。&lt;/p&gt;
+&lt;p&gt;访问 &lt;a href=&quot;http://www.vultr.com/?ref=6899087&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://www.vultr.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;博客有任何问题可以在文章下留言给我，&lt;br&gt;也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最具性价比的vps是哪家？综合考虑vps稳定性、机房速度、vps硬件配置，美国linode一度是vps市场里的王牌；digitalocean vps迅速介入云主机市场，SSD固态硬盘性能秒杀竞争对手，digitalocean价格非常便宜，5美元/月；2014年，vps品牌vultr悄然兴起，vps价格竟然比digitalocean还要低，性能优异，值得关注。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="VPS" scheme="https://www.skyshe.cn/categories/VPS/"/>
+    
+    
+      <category term="vps" scheme="https://www.skyshe.cn/tags/vps/"/>
+    
+      <category term="vultr" scheme="https://www.skyshe.cn/tags/vultr/"/>
+    
+      <category term="优惠码" scheme="https://www.skyshe.cn/tags/%E4%BC%98%E6%83%A0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>把wordpress的文章迁移到hexo方法</title>
+    <link href="https://www.skyshe.cn/2016/05/30/wordpress-to-hexo/"/>
+    <id>https://www.skyshe.cn/2016/05/30/wordpress-to-hexo/</id>
+    <published>2016-05-30T07:57:43.000Z</published>
+    <updated>2016-06-03T09:25:11.000Z</updated>
+    
+    <content type="html">&lt;p&gt;由于之前用wordpress写过博客，现在在用hexo。想把之前的博客迁移到hexo中，而且hexo也有这样的插件。本文将介绍迁移方法。&lt;/p&gt;
+&lt;h3 id=&quot;安装WordPress-migrator插件&quot;&gt;&lt;a href=&quot;#安装WordPress-migrator插件&quot; class=&quot;headerlink&quot; title=&quot;安装WordPress migrator插件&quot;&gt;&lt;/a&gt;安装WordPress migrator插件&lt;/h3&gt;&lt;p&gt;执行以下命令，安装WordPress migrator插件&lt;/p&gt;
+&lt;pre&gt;npm install hexo-migrator-wordpress --save&lt;/pre&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;从wordpress中导出文章&quot;&gt;&lt;a href=&quot;#从wordpress中导出文章&quot; class=&quot;headerlink&quot; title=&quot;从wordpress中导出文章&quot;&gt;&lt;/a&gt;从wordpress中导出文章&lt;/h3&gt;&lt;p&gt;登录wordpress管理控制台，选择工具-&amp;gt;导出，再选择文章[如下图]。点击下载导出的文件，就可以得到一个名称类似wordpress.2014-04-12.xml的文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/wordpress_export.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;把文章导入到hexo&quot;&gt;&lt;a href=&quot;#把文章导入到hexo&quot; class=&quot;headerlink&quot; title=&quot;把文章导入到hexo&quot;&gt;&lt;/a&gt;把文章导入到hexo&lt;/h3&gt;&lt;p&gt;在hexo生成的站点目录，即hexo init &amp;lt;站点目录&amp;gt;中的站点目录。执行以下命令，source为上一步中导出的类似wordpress.2014-04-12.xml文件全路径。&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;hexo migrate wordpress source&lt;/pre&gt;&lt;br&gt;执行完成之后，在站点目录-&amp;gt;source-&amp;gt;_posts目录中，就可以看到导入的文章。&lt;/p&gt;
+&lt;h3 id=&quot;后话&quot;&gt;&lt;a href=&quot;#后话&quot; class=&quot;headerlink&quot; title=&quot;后话&quot;&gt;&lt;/a&gt;后话&lt;/h3&gt;&lt;p&gt;此插件功能很是强大，不光文章标题，内容能够迁移过来，文章的写作日期，包含的标签，所属的分类也可以自动导入。文章内容的格式也可以转换为markdown格式。需要修改的地方只是包含代码的部分。wordpress中使用的是Syntax Highlighter，代码段是用类似[java][/java]的标签包围起来的，换成用前后各三个` 包含起来即可。本站的14年之前的文章都是利用此方法导入进来的。&lt;/p&gt;
+&lt;p&gt;参考文献&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-migrator-wordpress&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;https://github.com/hexojs/hexo-migrator-wordpress&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://zhaiyz.com/2014/04/12/migrator-blogs-from-wordpress-to-hexo/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://zhaiyz.com/2014/04/12/migrator-blogs-from-wordpress-to-hexo/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;博客有任何问题可以在文章下留言给我，&lt;br&gt;也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;由于之前用wordpress写过博客，现在在用hexo。想把之前的博客迁移到hexo中，而且hexo也有这样的插件。本文将介绍迁移方法。&lt;/p&gt;
+&lt;h3 id=&quot;安装WordPress-migrator插件&quot;&gt;&lt;a href=&quot;#安装WordPress-migrator插件&quot; class=&quot;headerlink&quot; title=&quot;安装WordPress migrator插件&quot;&gt;&lt;/a&gt;安装WordPress migrator插件&lt;/h3&gt;&lt;p&gt;执行以下命令，安装WordPress migrator插件&lt;/p&gt;
+&lt;pre&gt;npm install hexo-migrator-wordpress --save&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="wordpress" scheme="https://www.skyshe.cn/categories/wordpress/"/>
+    
+    
+      <category term="wordpress" scheme="https://www.skyshe.cn/tags/wordpress/"/>
+    
+      <category term="hexo" scheme="https://www.skyshe.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于博客迁移的说明</title>
+    <link href="https://www.skyshe.cn/2016/05/29/about-hexo/"/>
+    <id>https://www.skyshe.cn/2016/05/29/about-hexo/</id>
+    <published>2016-05-29T12:03:09.000Z</published>
+    <updated>2016-06-03T09:21:03.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;关于博客迁移的说明&quot;&gt;&lt;a href=&quot;#关于博客迁移的说明&quot; class=&quot;headerlink&quot; title=&quot;关于博客迁移的说明&quot;&gt;&lt;/a&gt;关于博客迁移的说明&lt;/h2&gt;&lt;p&gt;最近把我所有在阿里云的东西全部迁出了，所以博客由原来的Wordpres转成hexo了，调试了几天感觉还不错，hexo是基于nodejs的一款由台湾朋友写的博客框架，基本上和wp差不多,最大的区别可能hexo写作是基于Macdown的，所以需要一段时间来熟悉macdown的语法，&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;不过这样也好，可以安心的写博客，而不是像以前一样，解决了遇到的各种问题却没有沉淀和成文的记录，以前总是遇到问题就急急忙忙的解决了，从来没去思考过程个出问题的原因；&lt;/p&gt;
+&lt;p&gt;至于原来博客的数据和文章会一一迁移过来的，关于hexo和nodejs还有macdown等说明和资料还有迁移、安装等资料，大家可以Google，以后如果有时间我可能也会写一些相关的文章，&lt;/p&gt;
+&lt;p&gt;-===================================================================-&lt;/p&gt;
+&lt;p&gt;·有新博客有任何问题可以在文章下留言给我，也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;关于博客迁移的说明&quot;&gt;&lt;a href=&quot;#关于博客迁移的说明&quot; class=&quot;headerlink&quot; title=&quot;关于博客迁移的说明&quot;&gt;&lt;/a&gt;关于博客迁移的说明&lt;/h2&gt;&lt;p&gt;最近把我所有在阿里云的东西全部迁出了，所以博客由原来的Wordpres转成hexo了，调试了几天感觉还不错，hexo是基于nodejs的一款由台湾朋友写的博客框架，基本上和wp差不多,最大的区别可能hexo写作是基于Macdown的，所以需要一段时间来熟悉macdown的语法，&lt;br&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://www.skyshe.cn/categories/hexo/"/>
+    
+    
+      <category term="Blog" scheme="https://www.skyshe.cn/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站静态文件自动从源目录下载发布脚本</title>
+    <link href="https://www.skyshe.cn/2016/05/17/138/"/>
+    <id>https://www.skyshe.cn/2016/05/17/138/</id>
+    <published>2016-05-17T15:44:55.000Z</published>
+    <updated>2016-06-03T09:28:46.000Z</updated>
+    
+    <content type="html">&lt;p&gt;此脚本仅供参考学习。如果通过git.svn的方式管理代理可能更加方便。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#Author:Nortorm&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#Date:2016-05-17&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#Declare:更新发布网站静态文件，自动进行备份，并具备版本回滚功能！&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#设置变量&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;DATE=`date &lt;span class=&quot;string&quot;&gt;&#39;+%Y-%m-%d %H:%M:%S&#39;&lt;/span&gt;`&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;DATE_BAK_FORMAT=`date &lt;span class=&quot;string&quot;&gt;&#39;+%Y%m%d-%H%M&#39;&lt;/span&gt;`&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;WEB_DIR=/data/www/html&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;SCRIPT_DIR=/XXX/XXX&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;UPDATE_APP=(app1.zip app2.zip app3.zip)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app1=xxx&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app2=xxx&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app3=xxx&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mkdir -p &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/&amp;#123;release,config,script&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;echo_err&lt;/span&gt;&lt;/span&gt;()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;_&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;\e[91m[Error]: &lt;span class=&quot;variable&quot;&gt;$1&lt;/span&gt; \e[0m&quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;exit&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;echo_info&lt;/span&gt;&lt;/span&gt;()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;_&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;\e[92m[Info]: &lt;span class=&quot;variable&quot;&gt;$1&lt;/span&gt; \e[0m&quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#初始化脚本环境&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;rm -rf &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/release/*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:&amp;amp;gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/app_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;	INFO: 	Environment initialization，Now begin running script...&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;下载前端静态文件&quot;&gt;&lt;a href=&quot;#下载前端静态文件&quot; class=&quot;headerlink&quot; title=&quot;下载前端静态文件&quot;&gt;&lt;/a&gt;下载前端静态文件&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;wget_file&lt;/span&gt;&lt;/span&gt;()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#UPDATE_APP=$*&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#echo $UPDATE_APP&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;UPDATE_APP[@]&amp;#125;&lt;/span&gt;; &lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/release&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;#echo $&amp;#123;i&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        /usr/bin/wget http://XXX.XXX.XXX.XXX:XX/XX/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;i&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [[ $? &lt;span class=&quot;_&quot;&gt;-eq&lt;/span&gt; 0 ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt;  &lt;span class=&quot;variable&quot;&gt;$&amp;#123;i%.*&amp;#125;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/app_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;备份之前文件&quot;&gt;&lt;a href=&quot;#备份之前文件&quot; class=&quot;headerlink&quot; title=&quot;备份之前文件&quot;&gt;&lt;/a&gt;备份之前文件&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;backup_app&lt;/span&gt;&lt;/span&gt;()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	app_list=(`cat &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/app_list.md |xargs`)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; back &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;app_list[@]&amp;#125;&lt;/span&gt;;&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;#备份app1并生成最后备份路径List&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [[ &lt;span class=&quot;variable&quot;&gt;$&amp;#123;back&amp;#125;&lt;/span&gt; = &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt;_info &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;	INFO: backup &lt;span class=&quot;variable&quot;&gt;$&amp;#123;back&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			:&amp;amp;gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			mkdir -p /backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r &lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;/ 			/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			mkdir -p /backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r &lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;/ 	/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;#备份app2并生成最后备份路径List	&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;elif&lt;/span&gt; [[ &lt;span class=&quot;variable&quot;&gt;$&amp;#123;back&amp;#125;&lt;/span&gt; = &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt;_info &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;	INFO: backup &lt;span class=&quot;variable&quot;&gt;$&amp;#123;back&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			:&amp;amp;gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/backup/common_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			mkdir -p /backup/common_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r &lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/static/common/ 		/backup/common_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			mkdir -p /backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r &lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;/ 		/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;#备份app3并生成最后备份路径List&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;elif&lt;/span&gt; [[ &lt;span class=&quot;variable&quot;&gt;$&amp;#123;back&amp;#125;&lt;/span&gt; = &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt;_info &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;	INFO: backup &lt;span class=&quot;variable&quot;&gt;$&amp;#123;back&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			:&amp;amp;gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			mkdir -p /backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r &lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;/ 				/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/config/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_last_bak_list.md&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			mkdir -p /backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r &lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;/ 		/backup/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;_static_bak_&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE_BAK_FORMAT&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;done&lt;/span&gt;		&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;发布更新包&quot;&gt;&lt;a href=&quot;#发布更新包&quot; class=&quot;headerlink&quot; title=&quot;发布更新包&quot;&gt;&lt;/a&gt;发布更新包&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;title&quot;&gt;release_app&lt;/span&gt;&lt;/span&gt;()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; release &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt;  &lt;span class=&quot;variable&quot;&gt;$&amp;#123;app_list[@]&amp;#125;&lt;/span&gt;;&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;#发布更新app1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [[ &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt; = &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt;_info &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;	INFO: update &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/release&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			unzip &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;.zip &lt;span class=&quot;_&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r 	&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/_dist/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/*   			&lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;/ &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r 	&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/_dist/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/*		&lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app1&amp;#125;&lt;/span&gt;/ &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;#发布更新app2	&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;elif&lt;/span&gt; [[ &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt; = &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt;_info &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;	INFO: update &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/release&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			unzip &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;.zip &lt;span class=&quot;_&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r  &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/_dist/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/*    		&lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;/ &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r 	&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/_dist/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/*      	&lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app2&amp;#125;&lt;/span&gt;/ &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;#发布更新app3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;elif&lt;/span&gt; [[ &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt; = &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt; ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt;_info &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;	INFO: update &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;SCRIPT_DIR&amp;#125;&lt;/span&gt;/release&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			unzip &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;.zip &lt;span class=&quot;_&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r 	&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/_dist/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/* 				&lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;/ &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			/bin/cp -r 	&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/_dist/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;release&amp;#125;&lt;/span&gt;/*		&lt;span class=&quot;variable&quot;&gt;$&amp;#123;WEB_DIR&amp;#125;&lt;/span&gt;/static/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;app3&amp;#125;&lt;/span&gt;/ &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;done&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;按顺序执行&quot;&gt;&lt;a href=&quot;#按顺序执行&quot; class=&quot;headerlink&quot; title=&quot;按顺序执行&quot;&gt;&lt;/a&gt;按顺序执行&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;./wget_file&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;./backup_app&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;./release_app&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;博客有任何问题可以在文章下留言给我，&lt;br&gt;也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此脚本仅供参考学习。如果通过git.svn的方式管理代理可能更加方便。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="shell" scheme="https://www.skyshe.cn/categories/shell/"/>
+    
+    
+      <category term="release" scheme="https://www.skyshe.cn/tags/release/"/>
+    
+      <category term="shell" scheme="https://www.skyshe.cn/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql备份脚本记录</title>
+    <link href="https://www.skyshe.cn/2016/05/16/mysql-backup-shell/"/>
+    <id>https://www.skyshe.cn/2016/05/16/mysql-backup-shell/</id>
+    <published>2016-05-16T06:25:22.000Z</published>
+    <updated>2016-06-03T09:27:58.000Z</updated>
+    
+    <content type="html">&lt;p&gt;脚本文件名如下：mysql_backup.sh&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;64&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#Shell Command For Backup MySQL Database Everyday Automatically By Crontab&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#by Nortorm&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#2015-11-06&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#设置变量&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#USER=root&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#PASSWORD=&quot;XXXXXX&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#DATABASE=&quot;TEST&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#HOSTNAME=&quot;X.X.X.X&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;USER=&lt;span class=&quot;variable&quot;&gt;$1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;PASSWORD=&lt;span class=&quot;variable&quot;&gt;$2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;DATABASE=&lt;span class=&quot;variable&quot;&gt;$3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [[ &lt;span class=&quot;variable&quot;&gt;$#&lt;/span&gt; &lt;span class=&quot;_&quot;&gt;-ne&lt;/span&gt; 3 ]];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;Usage:/bin/sh &lt;span class=&quot;variable&quot;&gt;$0&lt;/span&gt; user password database&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;exit&lt;/span&gt; 1 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#失败邮件接收地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;MAIL_ADDR=&lt;span class=&quot;built_in&quot;&gt;test&lt;/span&gt;@qq.com&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;BACKUP_DIR=/backup/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;LOGFILE=/tmp/&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATABASE&amp;#125;&lt;/span&gt;_backup.log &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;DATE=`date &lt;span class=&quot;string&quot;&gt;&#39;+%Y%m%d-%H%M&#39;&lt;/span&gt;` &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;DUMPFILE=&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATABASE&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;.sql &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ARCHIVE=&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATABASE&amp;#125;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt;.sql.tgz &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#OPTIONS=&quot;-h$HOSTNAME -u$USER -p$PASSWORD --default-character-set=UTF8 $DATABASE&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;OPTIONS=&lt;span class=&quot;string&quot;&gt;&quot;-u&lt;span class=&quot;variable&quot;&gt;$&amp;#123;USER&amp;#125;&lt;/span&gt; -p&lt;span class=&quot;variable&quot;&gt;$&amp;#123;PASSWORD&amp;#125;&lt;/span&gt; --default-character-set=UTF8 &lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATABASE&amp;#125;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#mysqldump －help&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#判断备份文件存储目录是否存在，否则创建该目录（两种语法方式，看自己喜好选择！）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#if [[ ! -d $BACKUP_DIR ]] ;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#        mkdir -p &quot;$BACKUP_DIR&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;_&quot;&gt;-d&lt;/span&gt;  &lt;span class=&quot;variable&quot;&gt;$BACKUP_DIR&lt;/span&gt; | mkdir -p &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$BACKUP_DIR&lt;/span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#开始备份之前，将备份信息头写入日记文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot; &quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot; &quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;——————————————————————————————&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;BACKUP DATE:&quot;&lt;/span&gt; $(date +&lt;span class=&quot;string&quot;&gt;&quot;%y-%m-%d %H:%M:%S&quot;&lt;/span&gt;) &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;———————————————–——————————————&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#使用mysqldump 命令备份制定数据库，并以格式化的时间戳命名备份文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mysqldump &lt;span class=&quot;variable&quot;&gt;$OPTIONS&lt;/span&gt; &amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$BACKUP_DIR&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$DUMPFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#判断数据库备份是否成功&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [[ $? == 0 ]]; &lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#切换至备份目录 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$BACKUP_DIR&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#创建备份文件的压缩包&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    tar czvf &lt;span class=&quot;variable&quot;&gt;$ARCHIVE&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$DUMPFILE&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt; 2&amp;amp;gt;&amp;amp;amp;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#输入备份成功的消息到日记文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#echo &quot;Database Backup Successful!&quot; &amp;amp;gt;&amp;amp;gt; $LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;[&lt;span class=&quot;variable&quot;&gt;$ARCHIVE&lt;/span&gt;] Backup Successful!&quot;&lt;/span&gt;&amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#删除原始备份文件，只需保 留数据库备份文件的压缩包即可&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;#rm -f $DUMPFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;Database Backup Failed!&quot;&lt;/span&gt; &amp;amp;gt;&amp;amp;gt; &lt;span class=&quot;variable&quot;&gt;$LOGFILE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATE&amp;#125;&lt;/span&gt; INFO: &lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATABASE&amp;#125;&lt;/span&gt; Backup Fail,please check...! &quot;&lt;/span&gt; | mail &lt;span class=&quot;_&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$&amp;#123;DATABASE&amp;#125;&lt;/span&gt; Backup Failed&quot;&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$&amp;#123;MAIL_ADDR&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;exit&lt;/span&gt; 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#输出备份过程结束的提醒消息&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;Backup Process Done&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;exit&lt;/span&gt; 0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;结合crontab使用。&lt;/p&gt;
+&lt;p&gt;使用方式：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;* * * * * /bin/sh mysql_backup.sh user passwd &lt;span class=&quot;built_in&quot;&gt;test&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: #ff0000&quot;&gt;有任何问题请加QQ群反馈：187701731&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;博客有任何问题可以在文章下留言给我，&lt;br&gt;也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;脚本文件名如下：mysql_backup.sh&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="shell" scheme="https://www.skyshe.cn/categories/shell/"/>
+    
+      <category term="数据库" scheme="https://www.skyshe.cn/categories/shell/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="mysql" scheme="https://www.skyshe.cn/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phpsysinfo 一个简单的主机运行信息监控和采集工具</title>
+    <link href="https://www.skyshe.cn/2016/03/18/phpsysinfo-jiankong-tools/"/>
+    <id>https://www.skyshe.cn/2016/03/18/phpsysinfo-jiankong-tools/</id>
+    <published>2016-03-18T10:07:11.000Z</published>
+    <updated>2016-06-03T09:29:59.000Z</updated>
+    
+    <content type="html">&lt;p&gt;phpSysInfo是基于apache和php,简单监测服务器状态,包括服务器使用的系统,核心版本,服务器硬件信息详细信息,同时还有网络设备的使用情况,以及内存的使用情况,磁盘信息等,在页面最顶端可以选择页面的风格以及语言.支持跨平台监控，其中包括Windows、Linux、Mac OS 、树莓派、安卓等系统，甚至还可以监控 群晖Synology、QNAP等网络存储设备等。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;官方网站：&lt;a href=&quot;http://phpsysinfo.github.io/phpsysinfo/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://phpsysinfo.github.io/phpsysinfo/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在线演示：&lt;a href=&quot;http://phpsysinfo.github.io/phpsysinfo/demos.html&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://phpsysinfo.github.io/phpsysinfo/demos.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;div &lt;div=&quot;&quot; style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;Win10&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_12-500x302.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_13-500x336.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-1&quot;&gt;&lt;a href=&quot;#-1&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;div &lt;div=&quot;&quot; style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;Mac OS&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_5-500x327.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_6-500x255.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-2&quot;&gt;&lt;a href=&quot;#-2&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;div &lt;div=&quot;&quot; style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;Raspbian&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_7-500x294.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_8-500x277.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-3&quot;&gt;&lt;a href=&quot;#-3&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;div &lt;div=&quot;&quot; style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_9-500x290.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_11-500x268.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/Snip20160318_15-500x339.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;博客有任何问题可以在文章下留言给我，&lt;br&gt;也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;phpSysInfo是基于apache和php,简单监测服务器状态,包括服务器使用的系统,核心版本,服务器硬件信息详细信息,同时还有网络设备的使用情况,以及内存的使用情况,磁盘信息等,在页面最顶端可以选择页面的风格以及语言.支持跨平台监控，其中包括Windows、Linux、Mac OS 、树莓派、安卓等系统，甚至还可以监控 群晖Synology、QNAP等网络存储设备等。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="监控系统" scheme="https://www.skyshe.cn/categories/%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="phpsysinfo" scheme="https://www.skyshe.cn/tags/phpsysinfo/"/>
+    
+      <category term="监控" scheme="https://www.skyshe.cn/tags/%E7%9B%91%E6%8E%A7/"/>
+    
+      <category term="系统信息" scheme="https://www.skyshe.cn/tags/%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS 6 系列x86_64下yum安装SaltStack的Master和Minion</title>
+    <link href="https://www.skyshe.cn/2016/03/16/centos-6-x86-64-yum-install-saltstack-masterminion/"/>
+    <id>https://www.skyshe.cn/2016/03/16/centos-6-x86-64-yum-install-saltstack-masterminion/</id>
+    <published>2016-03-15T22:10:34.000Z</published>
+    <updated>2016-06-03T09:27:28.000Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;CentOS-6-系列x86-64下yum安装SaltStack的Master和Minion￼&quot;&gt;&lt;a href=&quot;#CentOS-6-系列x86-64下yum安装SaltStack的Master和Minion￼&quot; class=&quot;headerlink&quot; title=&quot;CentOS 6 系列x86_64下yum安装SaltStack的Master和Minion￼&quot;&gt;&lt;/a&gt;CentOS 6 系列x86_64下yum安装SaltStack的Master和Minion￼&lt;/h4&gt;&lt;h6 id=&quot;首先得先安装epel的yum源：&quot;&gt;&lt;a href=&quot;#首先得先安装epel的yum源：&quot; class=&quot;headerlink&quot; title=&quot;首先得先安装epel的yum源：&quot;&gt;&lt;/a&gt;首先得先安装epel的yum源：&lt;/h6&gt;&lt;p&gt;&lt;pre&gt;rpm -ivh &lt;a href=&quot;http://mirrors.skyshe.cn/epel/6/x86_64/epel-release-6-8.noarch.rpm&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://mirrors.skyshe.cn/epel/6/x86_64/epel-release-6-8.noarch.rpm&lt;/a&gt;&lt;/pre&gt;&lt;br&gt;1、SaltStack服务端（salt-master）安装：&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;    1、安装Master：&lt;br&gt;          &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yum install salt-master -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;2、启动salt-master服务
+      &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;service salt-master start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+  至此SaltStack的服务端就安装和启动完成了。
+
+2、SaltStack客户端（salt-minion）安装：
+ 1、安装Minion：
+    &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yum install salt-minion&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+ 2、使用sed修改客户端连接哪个Master地址
+ &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sed -i &lt;span class=&quot;string&quot;&gt;&#39;s/#master: salt/master: 192.168.1.100/g&#39;&lt;/span&gt; /etc/salt/minion&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+ 3、启动salt：
+    &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;service salt-minion start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;   至此SaltStack的客户端就安装和启动完成了&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;博客有任何问题可以在文章下留言给我，&lt;br&gt;也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;CentOS-6-系列x86-64下yum安装SaltStack的Master和Minion￼&quot;&gt;&lt;a href=&quot;#CentOS-6-系列x86-64下yum安装SaltStack的Master和Minion￼&quot; class=&quot;headerlink&quot; title=&quot;CentOS 6 系列x86_64下yum安装SaltStack的Master和Minion￼&quot;&gt;&lt;/a&gt;CentOS 6 系列x86_64下yum安装SaltStack的Master和Minion￼&lt;/h4&gt;&lt;h6 id=&quot;首先得先安装epel的yum源：&quot;&gt;&lt;a href=&quot;#首先得先安装epel的yum源：&quot; class=&quot;headerlink&quot; title=&quot;首先得先安装epel的yum源：&quot;&gt;&lt;/a&gt;首先得先安装epel的yum源：&lt;/h6&gt;&lt;p&gt;&lt;pre&gt;rpm -ivh &lt;a href=&quot;http://mirrors.skyshe.cn/epel/6/x86_64/epel-release-6-8.noarch.rpm&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;http://mirrors.skyshe.cn/epel/6/x86_64/epel-release-6-8.noarch.rpm&lt;/a&gt;&lt;/pre&gt;&lt;br&gt;1、SaltStack服务端（salt-master）安装：&lt;br&gt;
+    
+    </summary>
+    
+      <category term="配置管理" scheme="https://www.skyshe.cn/categories/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+      <category term="master" scheme="https://www.skyshe.cn/tags/master/"/>
+    
+      <category term="minion" scheme="https://www.skyshe.cn/tags/minion/"/>
+    
+      <category term="SaltStack" scheme="https://www.skyshe.cn/tags/SaltStack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿里云CDN--如何申请使用的免费startSSL证书</title>
+    <link href="https://www.skyshe.cn/2016/03/15/aliyun-cdn-startssl/"/>
+    <id>https://www.skyshe.cn/2016/03/15/aliyun-cdn-startssl/</id>
+    <published>2016-03-15T14:16:42.000Z</published>
+    <updated>2016-06-03T09:26:40.000Z</updated>
+    
+    <content type="html">&lt;p&gt;第一步骤，证书站点的认证&lt;/p&gt;
+&lt;p&gt;1、首先完成&lt;a href=&quot;https://www.startssl.com&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;https://www.startssl.com&lt;/a&gt;/的认证&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023629-4643-TB1zER9LFXXXXXxXXXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2、Authenticate&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023629-6604-TB18OdxLFXXXXc6XVXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;3、验证登录信息（邮箱）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023629-1166-TB12MFWLFXXXXaDXpXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023628-7626-TB1G2JrLFXXXXcgaXXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;保存证书（这个仅仅用于站点登录）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023628-5212-TB1TVxCLFXXXXacXVXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第二步骤，开始创建CDN需要的https的证书（这个就开始了）&lt;/p&gt;
+&lt;p&gt;1、生成证书的请求文件&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;本地生成私钥：openssl genrsa -out privateKey.pem 2048 其中privateKey.pem为您的私钥文件，请妥善保管。&lt;/li&gt;
+&lt;li&gt;生成证书请求文件：openssl req -new -key privateKey.pem -out server.csr 其中server.csr是您的证书请求文件，可用其去申请证书。&lt;/li&gt;
+&lt;li&gt;获取请求文件中的内容前往CA等机构站点申请证书。&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;/images/h1458023628-6487-TB199tULFXXXXaTXpXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;2、去证书站点申请证书&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023629-1009-TB1pthsLFXXXXa8aXXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;选择Web Server SSL/TLS Certificate （这里是网站业务，客户自由选择）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023631-5559-TB18QXILFXXXXcCXFXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3、证书生成，拿着之前生成的sever.csr去申请&lt;/p&gt;
+&lt;p&gt;初次登录的时候这里会验证您的顶级域名，（所以建议自己的域名信息的地方设置成比较方便获取验证码的邮箱，这里设置的qq邮箱，startssl.com会获取到这个域名邮箱信息，是自动获取的）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023632-2198-TB1PCR4LFXXXXbPXXXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023633-5087-TB1vd0VLFXXXXa4XpXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;会出现如下的情况&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023634-2824-TB1-iF-LFXXXXXlXXXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023634-2511-TB1Rdp7LFXXXXaFXXXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4、获取和下载生成的证书文件(&lt;a href=&quot;https://startssl.com/CertList&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;https://startssl.com/CertList&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023635-9900-TB1Nq0YLFXXXXahXpXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;下载打开就是如下的内容&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023638-3466-TB1jY0ULFXXXXa8XpXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;第三部分、CDN控制台的配置&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023638-4615-TB1GC0DLFXXXXaiXVXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这样点击下一步就成功了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/1458023638-7257-TB1H2F2LFXXXXcrXXXXXXXXXXXX.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;证书内容是第三方颁发的,在这里文件名字是openssl.ethnicity.cn.pem（可以自定义）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;私钥就是openssl genrsa -out privateKey.pem 2048 生成的privateKey.pem的文件内容&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&quot;xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;div id=&quot;xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd&quot;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;通过扫码我的微信公众号来支持我吧&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;/images/weixin.png&quot; alt=&quot;&quot; title=&quot;微信公众号&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;博客有任何问题可以在文章下留言给我，&lt;br&gt;也可以加入QQ群和邮件博主反馈  ·&lt;br&gt;QQ群：187701731&lt;br&gt;Eamil：Admin#skyshe.cn（来信时记得把#改成@）&lt;br&gt;微信公众号：skyshecn&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;第一步骤，证书站点的认证&lt;/p&gt;
+&lt;p&gt;1、首先完成&lt;a href=&quot;https://www.startssl.com&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;https://www.startssl.com&lt;/a&gt;/的认证&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux OS" scheme="https://www.skyshe.cn/categories/Linux-OS/"/>
+    
+    
+      <category term="SSL证书" scheme="https://www.skyshe.cn/tags/SSL%E8%AF%81%E4%B9%A6/"/>
+    
+      <category term="startssl" scheme="https://www.skyshe.cn/tags/startssl/"/>
+    
+      <category term="免费SSL证书" scheme="https://www.skyshe.cn/tags/%E5%85%8D%E8%B4%B9SSL%E8%AF%81%E4%B9%A6/"/>
+    
+      <category term="阿里云CDN" scheme="https://www.skyshe.cn/tags/%E9%98%BF%E9%87%8C%E4%BA%91CDN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于博客</title>
+    <link href="https://www.skyshe.cn/2016/03/15/about/"/>
+    <id>https://www.skyshe.cn/2016/03/15/about/</id>
+    <published>2016-03-15T04:50:19.000Z</published>
+    <updated>2016-06-03T09:20:49.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;不困于过去，不安于现在，不畏于将来&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;过去&quot;&gt;&lt;a href=&quot;#过去&quot; class=&quot;headerlink&quot; title=&quot;过去&quot;&gt;&lt;/a&gt;&lt;strong&gt;过去&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;零几年的时候，就开始折腾网站、技术、论坛、博客等，心想着要能搞出个大站点，然而坚持到了现在，却慢慢的由于各方面的原因（工作，心态，社交，学习等），把总结自己的时间一点一点挤没了，对于新的东西，总是有很大的激情去体验，去尝试，但是由于各方面的因素，遇到的各种困难而慢慢的难以坚持下去，现在的我，已经不是当年那个激情满满的小伙子了，这些年里基本是被工作压迫着成长，不断的接触着新的东西，鲜有思考和沉淀的时间。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;现在&quot;&gt;&lt;a href=&quot;#现在&quot; class=&quot;headerlink&quot; title=&quot;现在&quot;&gt;&lt;/a&gt;&lt;strong&gt;现在&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;写博客，是需要静心总结和思考的，维护一个博客，其实就是运营一个网站。工作以后，发现时间，环境已然不是那么规律，可以预见。每月，每周，每天都会有预想不到的变化，计划永远赶不上变化，加班，岗位调用，工作变迁，以及相应的带来生活上的变化，想要每天，每周或者每月挤出自己的时间来并不容易。学会记录，学会总结，学会持久的去坚持做好一件事情，是我现在需要锻炼的一项能力，或者说，把写博客变成一种习惯。&lt;/p&gt;
+&lt;h2 id=&quot;将来&quot;&gt;&lt;a href=&quot;#将来&quot; class=&quot;headerlink&quot; title=&quot;将来&quot;&gt;&lt;/a&gt;&lt;strong&gt;将来&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;以后有什么变化，无法预知，但学习和成长是个不变的话题，如果我能看的更远一些 那是因为我站在巨人的肩膀上，巨人是靠历史的积累，拥有过去，才能走的更远。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2016年03月16日于 南京&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1-300x169.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;不困于过去，不安于现在，不畏于将来&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;过去&quot;&gt;&lt;a href=&quot;#过去&quot; class=&quot;headerlink&quot; title=&quot;过去&quot;&gt;&lt;/a&gt;&lt;strong&gt;过去&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;零几年的时候，就开始折腾网站、技术、论坛、博客等，心想着要能搞出个大站点，然而坚持到了现在，却慢慢的由于各方面的原因（工作，心态，社交，学习等），把总结自己的时间一点一点挤没了，对于新的东西，总是有很大的激情去体验，去尝试，但是由于各方面的因素，遇到的各种困难而慢慢的难以坚持下去，现在的我，已经不是当年那个激情满满的小伙子了，这些年里基本是被工作压迫着成长，不断的接触着新的东西，鲜有思考和沉淀的时间。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Blog" scheme="https://www.skyshe.cn/categories/Blog/"/>
+    
+    
+      <category term="关于我们" scheme="https://www.skyshe.cn/tags/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC/"/>
+    
+      <category term="记录" scheme="https://www.skyshe.cn/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+</feed>
