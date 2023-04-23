@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.skyshe.cn/2023/04/23/index/</loc>
+    <loc>https://www.skyshe.cn/about/index.html</loc>
     
     <lastmod>2023-04-23</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://www.skyshe.cn/about/index.html</loc>
+    <loc>https://www.skyshe.cn/2023/04/23/index/</loc>
     
-    <lastmod>2023-04-07</lastmod>
+    <lastmod>2023-04-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
